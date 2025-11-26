@@ -6,7 +6,7 @@ use App\Http\Controllers\LaboratoriumController;
 use App\Http\Controllers\KasirController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('dashboard');
 });
 
 // Tambah route dashboard
